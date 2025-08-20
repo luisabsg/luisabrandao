@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: luisabsg/luisabrandao
+  name: git-gateway
   branch: main
 
 media_folder: "images/uploads"
@@ -16,3 +15,4 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Data", name: "date", widget: "datetime" }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
+
